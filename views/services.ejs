@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/public/styles.css" />
+  <title><%= title %></title>
+</head>
+<body>
+  <%- include("partials/navbar") %>
+
+  <main class="container">
+    <h1>Our Services</h1>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Web Development</h2>
+        <p>Express, Node.js, and modern frontend tooling.</p>
+      </div>
+
+      <div class="card">
+        <h2>DevOps & Automation</h2>
+        <p>CI/CD pipelines, Docker, Kubernetes, and cloud deployments.</p>
+      </div>
+
+      <div class="card">
+        <h2>Consulting</h2>
+        <p>System design, security best practices, and performance improvements.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -7,18 +7,15 @@
   <title><%= title %></title>
 </head>
 <body>
-  <%- include("partials/navbar") %>
-
   <main class="container">
-    <h1>Welcome to Our Website</h1>
-    <p>
-      This site is available during working hours (Mon–Fri, 09:00–17:00).
-      Enjoy your stay 👋
-    </p>
-
     <div class="card">
-      <h2>What we do</h2>
-      <p>We build modern web apps, automate workflows, and deliver reliable systems.</p>
+      <h1>⛔ We’re Closed</h1>
+      <p>This web application is only available during working hours:</p>
+      <ul>
+        <li>Monday to Friday</li>
+        <li>09:00 to 17:00</li>
+      </ul>
+      <p class="muted">Current time: <strong><%= now %></strong></p>
     </div>
   </main>
 </body>

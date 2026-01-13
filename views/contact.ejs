@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/public/styles.css" />
+  <title><%= title %></title>
+</head>
+<body>
+  <%- include("partials/navbar") %>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    <p>Send us a message and we’ll get back to you.</p>
+
+    <form class="card form" action="#" method="post">
+      <label>
+        Name
+        <input type="text" placeholder="Your name" required />
+      </label>
+
+      <label>
+        Email
+        <input type="email" placeholder="you@example.com" required />
+      </label>
+
+      <label>
+        Message
+        <textarea rows="5" placeholder="Write your message..." required></textarea>
+      </label>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+</body>
+</html>
